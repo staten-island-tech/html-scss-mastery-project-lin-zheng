@@ -5,3 +5,14 @@ body {
   margin: 0;
   box-sizing: border-box;
 }
+
+$colors: (
+  cream: #fff175,
+  scarlet: #ca3d00,
+  grape: #742f4c,
+  lilac: #ead2d2,
+);
+
+@function color($color-name) {
+  @return map-get($colors, $color-name);
+}
