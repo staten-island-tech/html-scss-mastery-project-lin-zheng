@@ -1,0 +1,26 @@
+@import "_variables.scss";
+
+.heading {
+  background-color: color(scarlet);
+  color: color(cream);
+  width: 50vh;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+}
+
+.navbar {
+  background-color: color(cream);
+  color: color(scarlet);
+}
+
+.navbar li {
+  display: inline;
+}
+
+.navbar a {
+  color: color(cream);
+  font-size: 18px;
+  padding-right: 15px;
+  text-decoration: none;
+}
