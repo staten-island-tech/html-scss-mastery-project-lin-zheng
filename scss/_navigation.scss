@@ -7,8 +7,8 @@
 }
 
 .main-header {
-  background-color: color(scarlet);
-  color: color(cream);
+  background-color: color(dark-primary);
+  color: color(primary);
   font-size: 3rem;
   display: flex;
   align-content: center;
@@ -19,8 +19,8 @@
 }
 
 .navbar {
-  background-color: color(cream);
-  color: color(scarlet);
+  background-color: color(primary);
+  color: color(dark-primary);
   border-radius: 0 0 3rem 3rem;
   font-family: $fontBRS;
 }
@@ -43,7 +43,7 @@
 }
 
 .navbar a {
-  color: color(scarlet);
+  color: color(dark-primary);
   text-decoration: none;
   font-size: 3rem;
 }
