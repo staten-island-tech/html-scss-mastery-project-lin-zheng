@@ -9,10 +9,10 @@ body {
 $fontBRS: ("Poor Story", cursive);
 
 $colors: (
-  cream: #fff175,
-  scarlet: #ca3d00,
-  grape: #742f4c,
-  lilac: #ead2d2,
+  primary: #fff175,
+  dark-primary: #ca3d00,
+  dark-box: #742f4c,
+  light-box: #ead2d2,
 );
 
 @function color($color-name) {
