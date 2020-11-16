@@ -35,6 +35,8 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   font-family: "Poor Story", cursive;
+  letter-spacing: 1rem;
+  text-shadow: black 2px 2px;
 }
 
 .navbar {
@@ -52,6 +54,14 @@ body {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+}
+
+.category:hover {
+  text-decoration: underline;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
 }
 
 .navbar li {
