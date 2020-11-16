@@ -13,12 +13,14 @@
   display: flex;
   align-content: center;
   justify-content: center;
+  font-family: $fontBRS;
 }
 
 .navbar {
   background-color: color(cream);
   color: color(scarlet);
   border-radius: 0 0 3rem 3rem;
+  font-family: $fontBRS;
 }
 
 .navitems {

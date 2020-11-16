@@ -34,12 +34,14 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  font-family: "Poor Story", cursive;
 }
 
 .navbar {
   background-color: #fff175;
   color: #ca3d00;
   border-radius: 0 0 3rem 3rem;
+  font-family: "Poor Story", cursive;
 }
 
 .navitems {
