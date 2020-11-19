@@ -2,9 +2,9 @@
 
 .chef-menu {
   width: 100%;
-  height: 100vh;
+  height: 40vh;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-direction: row;
 }
@@ -19,6 +19,8 @@
   width: 100%;
   transition: all 1s;
   transform-style: preserve-3d;
+  display: flex;
+  justify-content: space-around;
 }
 
 .chef:hover .brs {
@@ -31,7 +33,7 @@
   transform: rotateY(180deg);
   justify-content: center;
   font-family: $fontBRS;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .brs figure {
@@ -48,4 +50,358 @@
 
 .brsimg {
   border-radius: 10px;
+}
+
+.csdish {
+  font-size: 3rem;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/*sushi deluxe below*/
+
+.chefsd {
+  width: 346px;
+  height: 229px;
+}
+
+.sd {
+  height: 100%;
+  width: 100%;
+  transition: all 1s;
+  transform-style: preserve-3d;
+  display: flex;
+  justify-content: space-around;
+}
+
+.chefsd:hover .sd {
+  transform: rotateY(180deg);
+}
+
+.sd .back {
+  background-color: color(primary);
+  color: black;
+  transform: rotateY(180deg);
+  justify-content: center;
+  font-family: $fontBRS;
+  font-size: 1.2rem;
+}
+
+.sd figure {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sdimg {
+  border-radius: 10px;
+}
+
+/*Sashimi deluxe below*/
+
+.chefssd {
+  width: 346px;
+  height: 229px;
+}
+
+.ssd {
+  height: 100%;
+  width: 100%;
+  transition: all 1s;
+  transform-style: preserve-3d;
+  display: flex;
+  justify-content: space-around;
+}
+
+.chefssd:hover .ssd {
+  transform: rotateY(180deg);
+}
+
+.ssd .back {
+  background-color: color(primary);
+  color: black;
+  transform: rotateY(180deg);
+  justify-content: center;
+  font-family: $fontBRS;
+  font-size: 1.2rem;
+}
+
+.ssd figure {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ssdimg {
+  border-radius: 10px;
+}
+
+/*chef box*/
+
+.chef-box {
+  height: 65vh;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: color(dark-primary);
+  flex-direction: column;
+  border-radius: 20px;
+}
+
+.chef-choice {
+  font-family: $fontBRS;
+  font-size: 4rem;
+  color: white;
+}
+
+/*rest below*/
+
+.menu {
+  height: 150vh;
+  width: 99.29%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background-color: color(primary);
+  flex-direction: column;
+  border-radius: 40px;
+  border: 5px solid color(dark-primary);
+}
+
+.menuhead {
+  font-family: $fontBRS;
+  font-size: 5rem;
+  color: color(dark-primary);
+}
+
+/*menurest below*/
+
+.menurest {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+/*zensai*/
+
+.zen {
+  width: 230px;
+  height: 200px;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.zensai-appetizer {
+  height: 100%;
+  width: 100%;
+  transition: all 1s;
+  transform-style: preserve-3d;
+  display: flex;
+  justify-content: space-around;
+}
+
+.zen:hover .zensai-appetizer {
+  transform: rotateY(180deg);
+}
+
+.zensai-appetizer .front {
+  background-color: color(dark-primary);
+  color: color(primary);
+  font-family: $fontBRS;
+  font-size: 2rem;
+}
+
+.zensai-appetizer .back {
+  background-color: color(primary);
+  color: color(dark-primary);
+  transform: rotateY(180deg);
+  justify-content: center;
+  font-family: $fontBRS;
+  font-size: 2.2rem;
+  border: 2px solid color(dark-primary);
+}
+
+.zensai-appetizer figure {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*sushi sashi*/
+
+.susa {
+  width: 230px;
+  height: 200px;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sushi-to-sashimi {
+  height: 100%;
+  width: 100%;
+  transition: all 1s;
+  transform-style: preserve-3d;
+  display: flex;
+  justify-content: space-around;
+}
+
+.susa:hover .sushi-to-sashimi {
+  transform: rotateY(180deg);
+}
+
+.sushi-to-sashimi .front {
+  background-color: color(dark-primary);
+  color: color(primary);
+  font-family: $fontBRS;
+  font-size: 2rem;
+}
+
+.sushi-to-sashimi .back {
+  background-color: color(primary);
+  color: color(dark-primary);
+  transform: rotateY(180deg);
+  justify-content: center;
+  font-family: $fontBRS;
+  font-size: 2.2rem;
+  border: 2px solid color(dark-primary);
+}
+
+.sushi-to-sashimi figure {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*maki special*/
+
+.mak {
+  width: 230px;
+  height: 200px;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.maki-special-rolls {
+  height: 100%;
+  width: 100%;
+  transition: all 1s;
+  transform-style: preserve-3d;
+  display: flex;
+  justify-content: space-around;
+}
+
+.mak:hover .maki-special-rolls {
+  transform: rotateY(180deg);
+}
+
+.maki-special-rolls .front {
+  background-color: color(dark-primary);
+  color: color(primary);
+  font-family: $fontBRS;
+  font-size: 2rem;
+}
+
+.maki-special-rolls .back {
+  background-color: color(primary);
+  color: color(dark-primary);
+  transform: rotateY(180deg);
+  justify-content: center;
+  font-family: $fontBRS;
+  font-size: 2.2rem;
+  border: 2px solid color(dark-primary);
+}
+
+.maki-special-rolls figure {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*yasai rolls*/
+
+.ya {
+  width: 230px;
+  height: 200px;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.yasai-vegetable-rolls {
+  height: 100%;
+  width: 100%;
+  transition: all 1s;
+  transform-style: preserve-3d;
+  display: flex;
+  justify-content: space-around;
+}
+
+.ya:hover .yasai-vegetable-rolls {
+  transform: rotateY(180deg);
+}
+
+.yasai-vegetable-rolls .front {
+  background-color: color(dark-primary);
+  color: color(primary);
+  font-family: $fontBRS;
+  font-size: 2rem;
+}
+
+.yasai-vegetable-rolls .back {
+  background-color: color(primary);
+  color: color(dark-primary);
+  transform: rotateY(180deg);
+  justify-content: center;
+  font-family: $fontBRS;
+  font-size: 2.2rem;
+  border: 2px solid color(dark-primary);
+}
+
+.yasai-vegetable-rolls figure {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
