@@ -1,0 +1,51 @@
+@import "_variables.scss";
+
+.chef-menu {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.chef {
+  width: 346px;
+  height: 229px;
+}
+
+.brs {
+  height: 100%;
+  width: 100%;
+  transition: all 1s;
+  transform-style: preserve-3d;
+}
+
+.chef:hover .brs {
+  transform: rotateY(180deg);
+}
+
+.brs .back {
+  background-color: color(primary);
+  color: black;
+  transform: rotateY(180deg);
+  justify-content: center;
+  font-family: $fontBRS;
+  font-size: 1.5rem;
+}
+
+.brs figure {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.brsimg {
+  border-radius: 10px;
+}
