@@ -1,5 +1,5 @@
 @import "_variables.scss";
-<<<<<<< Updated upstream
+
 
 .container{
     height: 100vh;
@@ -7,12 +7,10 @@
 }
 
 .img-box{
-    width: 100vw;
+    width: 10rem;
     height: 40vh;
     display: flex;
     flex-direction: row;
+    align-items: center;
+
 }
-
-
-=======
->>>>>>> Stashed changes
