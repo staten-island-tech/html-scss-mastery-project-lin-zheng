@@ -159,6 +159,7 @@
   background-color: color(dark-primary);
   flex-direction: column;
   border-radius: 20px;
+  margin: 2rem;
 }
 
 .chef-choice {
@@ -170,11 +171,10 @@
 /*rest below*/
 
 .menu {
-  height: 150vh;
+  height: 225vh;
   width: 99.29%;
   display: flex;
   align-items: center;
-  justify-content: center;
   background-color: color(primary);
   flex-direction: column;
   border-radius: 40px;
@@ -190,11 +190,12 @@
 /*menurest below*/
 
 .menurest {
-  width: 100%;
+  width: 90%;
   height: 50vh;
   margin: 2rem;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   align-items: center;
   flex-direction: row;
   /*flex-wrap: ;*/ //maybe//
@@ -203,8 +204,8 @@
 /*zensai*/
 
 .zen {
-  width: 270px;
-  height: 200px;
+  width: 500px;
+  height: 350px;
   padding: 2rem;
   display: flex;
   align-items: center;
@@ -230,6 +231,8 @@
   font-family: $fontBRS;
   font-size: 2rem;
   align-items: center;
+  outline: 3px solid color(primary);
+  outline-offset: -4px;
 }
 
 .zensai-appetizer .back {
@@ -238,8 +241,8 @@
   transform: rotateY(180deg);
   justify-content: center;
   font-family: $fontBRS;
-  font-size: 2.2rem;
-  border: 2px solid color(dark-primary);
+  font-size: 3rem;
+  outline: 2px solid color(dark-primary);
 }
 
 .zensai-appetizer figure {
@@ -256,8 +259,8 @@
 /*sushi sashi*/
 
 .susa {
-  width: 270px;
-  height: 200px;
+  width: 500px;
+  height: 350px;
   padding: 2rem;
   display: flex;
   align-items: center;
@@ -282,6 +285,8 @@
   color: color(primary);
   font-family: $fontBRS;
   font-size: 2rem;
+  outline: 3px solid color(primary);
+  outline-offset: -4px;
 }
 
 .sushi-to-sashimi .back {
@@ -290,8 +295,8 @@
   transform: rotateY(180deg);
   justify-content: center;
   font-family: $fontBRS;
-  font-size: 2.2rem;
-  border: 2px solid color(dark-primary);
+  font-size: 3rem;
+  outline: 2px solid color(dark-primary);
 }
 
 .sushi-to-sashimi figure {
@@ -308,8 +313,8 @@
 /*maki special*/
 
 .mak {
-  width: 270px;
-  height: 200px;
+  width: 500px;
+  height: 350px;
   padding: 2rem;
   display: flex;
   align-items: center;
@@ -334,6 +339,8 @@
   color: color(primary);
   font-family: $fontBRS;
   font-size: 2rem;
+  outline: 3px solid color(primary);
+  outline-offset: -4px;
 }
 
 .maki-special-rolls .back {
@@ -342,8 +349,8 @@
   transform: rotateY(180deg);
   justify-content: center;
   font-family: $fontBRS;
-  font-size: 2.2rem;
-  border: 2px solid color(dark-primary);
+  font-size: 3rem;
+  outline: 2px solid color(dark-primary);
 }
 
 .maki-special-rolls figure {
@@ -360,8 +367,8 @@
 /*yasai rolls*/
 
 .ya {
-  width: 270px;
-  height: 200px;
+  width: 500px;
+  height: 350px;
   padding: 2rem;
   display: flex;
   align-items: center;
@@ -386,6 +393,8 @@
   color: color(primary);
   font-family: $fontBRS;
   font-size: 2rem;
+  outline: 3px solid color(primary);
+  outline-offset: -4px;
 }
 
 .yasai-vegetable-rolls .back {
@@ -394,8 +403,8 @@
   transform: rotateY(180deg);
   justify-content: center;
   font-family: $fontBRS;
-  font-size: 2.2rem;
-  border: 2px solid color(dark-primary);
+  font-size: 3rem;
+  outline: 2px solid color(dark-primary);
 }
 
 .yasai-vegetable-rolls figure {

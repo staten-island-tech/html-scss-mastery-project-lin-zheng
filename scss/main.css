@@ -243,6 +243,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   border-radius: 20px;
+  margin: 2rem;
 }
 
 .chef-choice {
@@ -253,7 +254,7 @@ body {
 
 /*rest below*/
 .menu {
-  height: 150vh;
+  height: 225vh;
   width: 99.29%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -261,9 +262,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   background-color: #fff175;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -281,7 +279,7 @@ body {
 
 /*menurest below*/
 .menurest {
-  width: 100%;
+  width: 90%;
   height: 50vh;
   margin: 2rem;
   display: -webkit-box;
@@ -289,6 +287,8 @@ body {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -301,8 +301,8 @@ body {
 
 /*zensai*/
 .zen {
-  width: 270px;
-  height: 200px;
+  width: 500px;
+  height: 350px;
   padding: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -342,6 +342,8 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  outline: 3px solid #fff175;
+  outline-offset: -4px;
 }
 
 .zensai-appetizer .back {
@@ -353,8 +355,8 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   font-family: "Poor Story", cursive;
-  font-size: 2.2rem;
-  border: 2px solid #ca3d00;
+  font-size: 3rem;
+  outline: 2px solid #ca3d00;
 }
 
 .zensai-appetizer figure {
@@ -379,8 +381,8 @@ body {
 
 /*sushi sashi*/
 .susa {
-  width: 270px;
-  height: 200px;
+  width: 500px;
+  height: 350px;
   padding: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -417,6 +419,8 @@ body {
   color: #fff175;
   font-family: "Poor Story", cursive;
   font-size: 2rem;
+  outline: 3px solid #fff175;
+  outline-offset: -4px;
 }
 
 .sushi-to-sashimi .back {
@@ -428,8 +432,8 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   font-family: "Poor Story", cursive;
-  font-size: 2.2rem;
-  border: 2px solid #ca3d00;
+  font-size: 3rem;
+  outline: 2px solid #ca3d00;
 }
 
 .sushi-to-sashimi figure {
@@ -454,8 +458,8 @@ body {
 
 /*maki special*/
 .mak {
-  width: 270px;
-  height: 200px;
+  width: 500px;
+  height: 350px;
   padding: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -492,6 +496,8 @@ body {
   color: #fff175;
   font-family: "Poor Story", cursive;
   font-size: 2rem;
+  outline: 3px solid #fff175;
+  outline-offset: -4px;
 }
 
 .maki-special-rolls .back {
@@ -503,8 +509,8 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   font-family: "Poor Story", cursive;
-  font-size: 2.2rem;
-  border: 2px solid #ca3d00;
+  font-size: 3rem;
+  outline: 2px solid #ca3d00;
 }
 
 .maki-special-rolls figure {
@@ -529,8 +535,8 @@ body {
 
 /*yasai rolls*/
 .ya {
-  width: 270px;
-  height: 200px;
+  width: 500px;
+  height: 350px;
   padding: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -567,6 +573,8 @@ body {
   color: #fff175;
   font-family: "Poor Story", cursive;
   font-size: 2rem;
+  outline: 3px solid #fff175;
+  outline-offset: -4px;
 }
 
 .yasai-vegetable-rolls .back {
@@ -578,8 +586,8 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   font-family: "Poor Story", cursive;
-  font-size: 2.2rem;
-  border: 2px solid #ca3d00;
+  font-size: 3rem;
+  outline: 2px solid #ca3d00;
 }
 
 .yasai-vegetable-rolls figure {
