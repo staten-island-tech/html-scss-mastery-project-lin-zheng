@@ -173,7 +173,7 @@
   height: 150vh;
   width: 99.29%;
   display: flex;
-  align-content: center;
+  align-items: center;
   justify-content: center;
   background-color: color(primary);
   flex-direction: column;
@@ -192,6 +192,7 @@
 .menurest {
   width: 100%;
   height: 50vh;
+  margin: 2rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -202,7 +203,7 @@
 /*zensai*/
 
 .zen {
-  width: 230px;
+  width: 270px;
   height: 200px;
   padding: 2rem;
   display: flex;
@@ -228,6 +229,7 @@
   color: color(primary);
   font-family: $fontBRS;
   font-size: 2rem;
+  align-items: center;
 }
 
 .zensai-appetizer .back {
@@ -254,7 +256,7 @@
 /*sushi sashi*/
 
 .susa {
-  width: 230px;
+  width: 270px;
   height: 200px;
   padding: 2rem;
   display: flex;
@@ -306,7 +308,7 @@
 /*maki special*/
 
 .mak {
-  width: 230px;
+  width: 270px;
   height: 200px;
   padding: 2rem;
   display: flex;
@@ -358,7 +360,7 @@
 /*yasai rolls*/
 
 .ya {
-  width: 230px;
+  width: 270px;
   height: 200px;
   padding: 2rem;
   display: flex;
