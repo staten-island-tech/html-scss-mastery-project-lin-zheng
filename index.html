@@ -7,14 +7,50 @@
     <link rel="stylesheet" href="scss/main.css">
     <title>Blue Ribbon Sushi</title>
 </head>
-
+<!--tabindex used to focus on next element by using tab key-->
+<!--aside element used as navigation represented by bullet points,, normally used to present sidebars,, info is indirectly related to that of main content-->
 <body>
-    <div class="container">
-        <div class="img-box">
-            <img src="img/img-1.jpg" alt="store image" class="img img-1">
-            <img src="img/img-2.jpg" alt="making sushi image" class="img img-2">
-            <img src="img/img-3.jpg" alt="sushi food image" class="img img-3">
-        </div>
+    <section class="carousel" aria-label="Gallery">
+        <ol class="carousel_viewport">
+            <li id="carousel_slide1" tabindex="0" class="carousel_slide">
+                <img src="img/img-1.jpg" alt="image of Blue Ribbon Sushi Store">
+                <div class="carousel_snapper">
+                    <a href="#carousel_slide3" class="carousel_prev">Go to last slide</a>
+                    <a href="#carousel_slide2" class="carousel_next">Go to next slide</a>
+                </div>
+            </li>
+
+            <li id="carousel_slide2" tabindex="0" class="carousel_slide">
+                <img src="img/img-2.jpg" alt="image of chefs making sushi">
+                <div class="carousel_snapper">
+                    <a href="#carousel_slide1" class="carousel_prev">Go to previous slide</a>
+                    <a href="#carousel_slide3" class="carousel_next">Go to next slide</a>
+                </div>
+            </li>
+
+            <li id="carousel_slide3" tabindex="0" class="carousel_slide">
+                <img src="img/img-3.jpg" alt="image of sample sushi combination meal">
+                <div class="carousel_snapper">
+                    <a href="#carousel_slide3" class="carousel_prev">Go to previous slide</a>
+                    <a href="#carousel_slide2" class="carousel_next">Go to first slide</a>
+                </div>
+            </li>
+        </ol>
+        <aside class="carousel_navigation">
+            <ol class="carousel_navigation_list">
+                <li class="carousel_navigation_item">
+                    <a href="#carousel_slide1" class="carousel_navigation_button">Go to slide 1</a>
+                </li>
+                <li class="carousel_navigation_item">
+                    <a href="#carousel_slide2" class="carousel_navigation_button">Go to slide 2</a>
+                </li>
+                <li class="carousel_navigation_item">
+                    <a href="#carousel_slide3" class="carousel_navigation_button">Go to slide 3</a>
+                </li>
+            </ol>
+        </aside>
+    </section>
+
     </div>
 
     
