@@ -1,0 +1,70 @@
+@import "_variables.scss";
+
+.container {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.main-header {
+  background-color: color(dark-primary);
+  color: color(primary);
+  font-size: 3rem;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  font-family: $fontBRS;
+  letter-spacing: 1rem;
+  text-shadow: rgb(0, 0, 0) 2px 2px;
+}
+
+.navbar {
+  background-color: color(primary);
+  color: color(dark-primary);
+  border-radius: 0 0 3rem 3rem;
+  font-family: $fontBRS;
+}
+
+.navitems {
+  padding: 3rem;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.category:hover {
+  text-decoration: underline;
+  transform: scale(1.5);
+  transition: all 0.7s;
+}
+
+.navbar li {
+  display: inline;
+}
+
+.navbar a {
+  color: color(dark-primary);
+  text-decoration: none;
+  font-size: 3rem;
+}
+
+index starts here
+
+<body>
+    <header class="container">
+        <div class="main-header">
+            <h1>Blue Ribbon Sushi</h1>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <div class="container">
+            <ul class="navitems">
+                <li class="category"><a href="#">Home</a></li>
+                <li class="category"><a href="#">About</a></li>
+                <li class="category"><a href="#">Menu</a></li>
+                <li class="category"><a href="#">Delivery & Takeouts</a></li>
+                <li class="category"><a href="#">Locations & Hours</a></li>
+            </ul>
+        </div>
+    </nav>
