@@ -7,15 +7,6 @@ body {
           box-sizing: border-box;
 }
 
-html,
-body {
-  font-size: 62.5%;
-  padding: 0;
-  margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
 .container {
   width: 100%;
   margin: 0;
@@ -72,15 +63,6 @@ body {
   color: #ca3d00;
   text-decoration: none;
   font-size: 3rem;
-}
-
-html,
-body {
-  font-size: 62.5%;
-  padding: 0;
-  margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 .chef-menu {
@@ -675,15 +657,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-}
-
-html,
-body {
-  font-size: 62.5%;
-  padding: 0;
-  margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 html,
