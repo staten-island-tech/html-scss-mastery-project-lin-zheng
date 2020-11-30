@@ -276,7 +276,7 @@ body {
 /*rest below*/
 .menu {
   height: 225vh;
-  width: 99.29%;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -364,7 +364,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   outline: 3px solid #fff175;
-  outline-offset: -4px;
+  outline-offset: -6px;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
 }
@@ -445,7 +445,7 @@ body {
   font-family: "Poor Story", cursive;
   font-size: 2rem;
   outline: 3px solid #fff175;
-  outline-offset: -4px;
+  outline-offset: -6px;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
 }
@@ -526,7 +526,7 @@ body {
   font-family: "Poor Story", cursive;
   font-size: 2rem;
   outline: 3px solid #fff175;
-  outline-offset: -4px;
+  outline-offset: -6px;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
 }
@@ -607,7 +607,7 @@ body {
   font-family: "Poor Story", cursive;
   font-size: 2rem;
   outline: 3px solid #fff175;
-  outline-offset: -4px;
+  outline-offset: -6px;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
 }

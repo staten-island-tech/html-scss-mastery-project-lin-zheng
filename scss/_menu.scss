@@ -187,7 +187,7 @@
 
 .menu {
   height: 225vh;
-  width: 99.29%;
+  width: 100%;
   display: flex;
   align-items: center;
   background-color: color(primary);
@@ -247,7 +247,7 @@
   font-size: 2rem;
   align-items: center;
   outline: 3px solid color(primary);
-  outline-offset: -4px;
+  outline-offset: -6px;
   backface-visibility: hidden;
 }
 
@@ -303,7 +303,7 @@
   font-family: $fontBRS;
   font-size: 2rem;
   outline: 3px solid color(primary);
-  outline-offset: -4px;
+  outline-offset: -6px;
   backface-visibility: hidden;
 }
 
@@ -359,7 +359,7 @@
   font-family: $fontBRS;
   font-size: 2rem;
   outline: 3px solid color(primary);
-  outline-offset: -4px;
+  outline-offset: -6px;
   backface-visibility: hidden;
 }
 
@@ -415,7 +415,7 @@
   font-family: $fontBRS;
   font-size: 2rem;
   outline: 3px solid color(primary);
-  outline-offset: -4px;
+  outline-offset: -6px;
   backface-visibility: hidden;
 }
 
