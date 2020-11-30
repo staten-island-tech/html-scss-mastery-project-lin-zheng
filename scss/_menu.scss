@@ -34,6 +34,11 @@
   justify-content: center;
   font-family: $fontBRS;
   font-size: 1.2rem;
+  backface-visibility: hidden;
+}
+
+.brs .front {
+  backface-visibility: hidden;
 }
 
 .brs figure {
@@ -85,6 +90,11 @@
   justify-content: center;
   font-family: $fontBRS;
   font-size: 1.2rem;
+  backface-visibility: hidden;
+}
+
+.sd .front {
+  backface-visibility: hidden;
 }
 
 .sd figure {
@@ -130,6 +140,11 @@
   justify-content: center;
   font-family: $fontBRS;
   font-size: 1.2rem;
+  backface-visibility: hidden;
+}
+
+.ssd .front {
+  backface-visibility: hidden;
 }
 
 .ssd figure {
@@ -233,6 +248,7 @@
   align-items: center;
   outline: 3px solid color(primary);
   outline-offset: -4px;
+  backface-visibility: hidden;
 }
 
 .zensai-appetizer .back {
@@ -243,6 +259,7 @@
   font-family: $fontBRS;
   font-size: 3rem;
   outline: 2px solid color(dark-primary);
+  backface-visibility: hidden;
 }
 
 .zensai-appetizer figure {
@@ -287,6 +304,7 @@
   font-size: 2rem;
   outline: 3px solid color(primary);
   outline-offset: -4px;
+  backface-visibility: hidden;
 }
 
 .sushi-to-sashimi .back {
@@ -297,6 +315,7 @@
   font-family: $fontBRS;
   font-size: 3rem;
   outline: 2px solid color(dark-primary);
+  backface-visibility: hidden;
 }
 
 .sushi-to-sashimi figure {
@@ -341,6 +360,7 @@
   font-size: 2rem;
   outline: 3px solid color(primary);
   outline-offset: -4px;
+  backface-visibility: hidden;
 }
 
 .maki-special-rolls .back {
@@ -351,6 +371,7 @@
   font-family: $fontBRS;
   font-size: 3rem;
   outline: 2px solid color(dark-primary);
+  backface-visibility: hidden;
 }
 
 .maki-special-rolls figure {
@@ -395,6 +416,7 @@
   font-size: 2rem;
   outline: 3px solid color(primary);
   outline-offset: -4px;
+  backface-visibility: hidden;
 }
 
 .yasai-vegetable-rolls .back {
@@ -405,6 +427,7 @@
   font-family: $fontBRS;
   font-size: 3rem;
   outline: 2px solid color(dark-primary);
+  backface-visibility: hidden;
 }
 
 .yasai-vegetable-rolls figure {

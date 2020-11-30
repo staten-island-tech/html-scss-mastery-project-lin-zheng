@@ -67,6 +67,13 @@ body {
           justify-content: center;
   font-family: "Poor Story", cursive;
   font-size: 1.2rem;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.brs .front {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
 .brs figure {
@@ -135,6 +142,13 @@ body {
           justify-content: center;
   font-family: "Poor Story", cursive;
   font-size: 1.2rem;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.sd .front {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
 .sd figure {
@@ -197,6 +211,13 @@ body {
           justify-content: center;
   font-family: "Poor Story", cursive;
   font-size: 1.2rem;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.ssd .front {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
 .ssd figure {
@@ -344,6 +365,8 @@ body {
           align-items: center;
   outline: 3px solid #fff175;
   outline-offset: -4px;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
 .zensai-appetizer .back {
@@ -357,6 +380,8 @@ body {
   font-family: "Poor Story", cursive;
   font-size: 3rem;
   outline: 2px solid #ca3d00;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
 .zensai-appetizer figure {
@@ -421,6 +446,8 @@ body {
   font-size: 2rem;
   outline: 3px solid #fff175;
   outline-offset: -4px;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
 .sushi-to-sashimi .back {
@@ -434,6 +461,8 @@ body {
   font-family: "Poor Story", cursive;
   font-size: 3rem;
   outline: 2px solid #ca3d00;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
 .sushi-to-sashimi figure {
@@ -498,6 +527,8 @@ body {
   font-size: 2rem;
   outline: 3px solid #fff175;
   outline-offset: -4px;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
 .maki-special-rolls .back {
@@ -511,6 +542,8 @@ body {
   font-family: "Poor Story", cursive;
   font-size: 3rem;
   outline: 2px solid #ca3d00;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
 .maki-special-rolls figure {
@@ -575,6 +608,8 @@ body {
   font-size: 2rem;
   outline: 3px solid #fff175;
   outline-offset: -4px;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
 .yasai-vegetable-rolls .back {
@@ -588,6 +623,8 @@ body {
   font-family: "Poor Story", cursive;
   font-size: 3rem;
   outline: 2px solid #ca3d00;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
 .yasai-vegetable-rolls figure {
