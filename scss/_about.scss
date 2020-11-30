@@ -22,8 +22,16 @@
 }
 
 .aboutimg {
-  width: 50rem;
+  width: 45rem;
   border-radius: 5rem;
+  filter: blur(3px);
+  transition: all 1s;
+}
+
+.aboutimg:hover {
+  transform: scale(1.1);
+  filter: blur(0);
+  filter: contrast(130%);
 }
 
 .abouthead {
