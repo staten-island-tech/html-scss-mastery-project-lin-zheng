@@ -6,4 +6,15 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+.delivery-takeout {
+  height: 80vh;
+  width: 70vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 /*# sourceMappingURL=main.css.map */
