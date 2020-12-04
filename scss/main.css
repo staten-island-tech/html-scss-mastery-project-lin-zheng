@@ -5,6 +5,7 @@ body {
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  background-color: color(dark-primary);
 }
 
 html,
@@ -14,6 +15,7 @@ body {
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  background-color: #ca3d00;
 }
 
 .container {
@@ -86,6 +88,7 @@ body {
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  background-color: #ca3d00;
 }
 
 .chef-menu {
@@ -717,6 +720,24 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #ca3d00;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
