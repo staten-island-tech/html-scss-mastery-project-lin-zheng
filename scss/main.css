@@ -23,9 +23,12 @@ body {
 }
 
 .main-header {
-  background-color: #ca3d00;
+  height: 35vh;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 241, 117, 0.5)), to(rgba(202, 61, 0, 0.8))), url(img/headback.jpg);
+  background-image: linear-gradient(to bottom, rgba(255, 241, 117, 0.5), rgba(202, 61, 0, 0.8)), url(img/headback.jpg);
+  background-size: cover;
   color: #fff175;
-  font-size: 3rem;
+  font-size: 4rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -36,7 +39,7 @@ body {
           justify-content: center;
   font-family: "Poor Story", cursive;
   letter-spacing: 1rem;
-  text-shadow: black 2px 2px;
+  text-shadow: #ca3d00 4px 4px;
 }
 
 .navbar {
@@ -57,11 +60,13 @@ body {
 }
 
 .category:hover {
-  text-decoration: underline;
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
+  border-top: solid 3px #ca3d00;
+  border-bottom: solid 3px #ca3d00;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
   -webkit-transition: all 0.7s;
   transition: all 0.7s;
+  letter-spacing: 2px;
 }
 
 .navbar li {
