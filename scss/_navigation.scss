@@ -7,15 +7,22 @@
 }
 
 .main-header {
-  background-color: color(dark-primary);
+  height: 35vh;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(color(primary), 0.5),
+      rgba(color(dark-primary), 0.8)
+    ),
+    url(img/headback.jpg);
+  background-size: cover;
   color: color(primary);
-  font-size: 3rem;
+  font-size: 4rem;
   display: flex;
   align-content: center;
   justify-content: center;
   font-family: $fontBRS;
   letter-spacing: 1rem;
-  text-shadow: rgb(0, 0, 0) 2px 2px;
+  text-shadow: color(dark-primary) 4px 4px;
 }
 
 .navbar {
@@ -33,9 +40,11 @@
 }
 
 .category:hover {
-  text-decoration: underline;
-  transform: scale(1.5);
+  border-top: solid 3px color(dark-primary);
+  border-bottom: solid 3px color(dark-primary);
+  transform: scale(1.2);
   transition: all 0.7s;
+  letter-spacing: 2px;
 }
 
 .navbar li {
