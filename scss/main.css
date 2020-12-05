@@ -21,18 +21,33 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  font-family: "Poor Story", cursive;
+}
+
+.delivery-takeout-text {
+  margin: 3rem 0rem 5rem;
+  color: #fff;
+  font-size: 5rem;
 }
 
 .forms {
+  width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 3rem;
+  color: #fff175;
+}
+
+.box {
+  height: 3rem;
+  border-radius: 0.5rem;
+}
+
+.select-text {
+  font-size: 3rem;
+  margin: 5rem;
 }
 /*# sourceMappingURL=main.css.map */
