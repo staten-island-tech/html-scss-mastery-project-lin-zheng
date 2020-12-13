@@ -2,7 +2,7 @@
 
 .delivery-takeout{
     background-color: color(dark-primary);
-    height: 100vh;
+    height: auto;
     width: 100vw;
     display: flex;
     align-items: center;
@@ -24,6 +24,7 @@
     justify-content: space-around;
     font-size: 3rem;
     color: color(primary);
+    background-color: purple;
 }
 
 .box{
@@ -34,4 +35,23 @@
 .select-text{
     font-size: 3rem;
     margin: 5rem;
+    background-color: gray;
+
+}
+
+.menu-selection{
+    background-color: blue;
+    height: 30rem;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+}
+
+.options{
+    font-size: 2rem;
+    background-color: yellow;
+    transform: translate(5rem);
+    width: 30rem;
+
 }
