@@ -198,6 +198,13 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+.delivery-takeout {
+  background-color: #ca3d00;
+  height: auto;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -331,6 +338,17 @@ body {
   width: 90%;
   height: 50vh;
   margin: 2rem;
+  font-family: "Poor Story", cursive;
+}
+
+.delivery-takeout-text {
+  margin: 3rem 0rem 5rem;
+  color: #fff;
+  font-size: 5rem;
+}
+
+.forms {
+  width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -576,6 +594,27 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-size: 3rem;
+  color: #fff175;
+}
+
+.box {
+  height: 3rem;
+  border-radius: 0.5rem;
+}
+
+.select-text {
+  font-size: 3rem;
+  margin: 3rem;
+  text-align: center;
+}
+
+.menu-selection {
+  height: 30rem;
+  margin-bottom: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -808,5 +847,33 @@ ul, li {
 
 .carousel::after {
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='100,50 20,100 20,0' fill='%23fff'/%3E%3C/svg%3E");
+  width: 40rem;
+}
+
+.options {
+  font-size: 2rem;
+  -webkit-transform: translate(5rem);
+          transform: translate(5rem);
+  overflow: scroll;
+  border-radius: 1rem;
+  border-style: ridge;
+  padding: 2rem;
+  width: 26rem;
+}
+
+*::-webkit-scrollbar {
+  width: 0rem;
+}
+
+.order {
+  margin-bottom: 3rem;
+  height: 5rem;
+  width: 14rem;
+  border-radius: 5rem;
+  background-color: #fff175;
+  font-family: "Poor Story", cursive;
+  font-size: 2rem;
+  color: #ca3d00;
+  font-weight: bold;
 }
 /*# sourceMappingURL=main.css.map */
