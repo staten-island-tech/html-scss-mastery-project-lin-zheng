@@ -5,6 +5,17 @@ body {
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  background-color: color(dark-primary);
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #ca3d00;
 }
 
 .container {
@@ -14,9 +25,12 @@ body {
 }
 
 .main-header {
-  background-color: #ca3d00;
+  height: 35vh;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 241, 117, 0.5)), to(rgba(202, 61, 0, 0.8))), url(img/headback.jpg);
+  background-image: linear-gradient(to bottom, rgba(255, 241, 117, 0.5), rgba(202, 61, 0, 0.8)), url(img/headback.jpg);
+  background-size: cover;
   color: #fff175;
-  font-size: 3rem;
+  font-size: 4rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -27,7 +41,7 @@ body {
           justify-content: center;
   font-family: "Poor Story", cursive;
   letter-spacing: 1rem;
-  text-shadow: black 2px 2px;
+  text-shadow: #ca3d00 4px 4px;
 }
 
 .navbar {
@@ -48,11 +62,13 @@ body {
 }
 
 .category:hover {
-  text-decoration: underline;
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
+  border-top: solid 3px #ca3d00;
+  border-bottom: solid 3px #ca3d00;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
   -webkit-transition: all 0.7s;
   transition: all 0.7s;
+  letter-spacing: 2px;
 }
 
 .navbar li {
@@ -63,6 +79,16 @@ body {
   color: #ca3d00;
   text-decoration: none;
   font-size: 3rem;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #ca3d00;
 }
 
 .chef-menu {
@@ -116,6 +142,13 @@ body {
           justify-content: center;
   font-family: "Poor Story", cursive;
   font-size: 1.2rem;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.brs .front {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
 .brs figure {
@@ -184,6 +217,13 @@ body {
           justify-content: center;
   font-family: "Poor Story", cursive;
   font-size: 1.2rem;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.sd .front {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
 .sd figure {
@@ -255,6 +295,13 @@ body {
           justify-content: center;
   font-family: "Poor Story", cursive;
   font-size: 1.2rem;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.ssd .front {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
 .ssd figure {
@@ -313,7 +360,7 @@ body {
 /*rest below*/
 .menu {
   height: 225vh;
-  width: 99.29%;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -412,7 +459,9 @@ body {
       -ms-flex-align: center;
           align-items: center;
   outline: 3px solid #fff175;
-  outline-offset: -4px;
+  outline-offset: -6px;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
 .zensai-appetizer .back {
@@ -426,6 +475,8 @@ body {
   font-family: "Poor Story", cursive;
   font-size: 3rem;
   outline: 2px solid #ca3d00;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
 .zensai-appetizer figure {
@@ -489,7 +540,9 @@ body {
   font-family: "Poor Story", cursive;
   font-size: 2rem;
   outline: 3px solid #fff175;
-  outline-offset: -4px;
+  outline-offset: -6px;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
 .sushi-to-sashimi .back {
@@ -503,6 +556,8 @@ body {
   font-family: "Poor Story", cursive;
   font-size: 3rem;
   outline: 2px solid #ca3d00;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
 .sushi-to-sashimi figure {
@@ -566,7 +621,9 @@ body {
   font-family: "Poor Story", cursive;
   font-size: 2rem;
   outline: 3px solid #fff175;
-  outline-offset: -4px;
+  outline-offset: -6px;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
 .maki-special-rolls .back {
@@ -580,6 +637,8 @@ body {
   font-family: "Poor Story", cursive;
   font-size: 3rem;
   outline: 2px solid #ca3d00;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
 .maki-special-rolls figure {
@@ -664,7 +723,9 @@ body {
   font-family: "Poor Story", cursive;
   font-size: 2rem;
   outline: 3px solid #fff175;
-  outline-offset: -4px;
+  outline-offset: -6px;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
 .yasai-vegetable-rolls .back {
@@ -678,6 +739,8 @@ body {
   font-family: "Poor Story", cursive;
   font-size: 3rem;
   outline: 2px solid #ca3d00;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
 .yasai-vegetable-rolls figure {
@@ -698,6 +761,16 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #ca3d00;
 }
 
 html,
