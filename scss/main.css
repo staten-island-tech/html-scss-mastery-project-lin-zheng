@@ -39,7 +39,6 @@ body {
       justify-content: space-around;
   font-size: 3rem;
   color: #fff175;
-  background-color: purple;
 }
 
 .box {
@@ -49,14 +48,13 @@ body {
 
 .select-text {
   font-size: 3rem;
-  margin: 5rem;
-  background-color: gray;
+  margin: 3rem;
+  text-align: center;
 }
 
 .menu-selection {
-  background-color: blue;
   height: 30rem;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -69,9 +67,28 @@ body {
 
 .options {
   font-size: 2rem;
-  background-color: yellow;
   -webkit-transform: translate(5rem);
           transform: translate(5rem);
-  width: 30rem;
+  overflow: scroll;
+  border-radius: 1rem;
+  border-style: ridge;
+  padding: 2rem;
+  width: 26rem;
+}
+
+*::-webkit-scrollbar {
+  width: 0rem;
+}
+
+.order {
+  margin-bottom: 3rem;
+  height: 5rem;
+  width: 14rem;
+  border-radius: 5rem;
+  background-color: #fff175;
+  font-family: "Poor Story", cursive;
+  font-size: 2rem;
+  color: #ca3d00;
+  font-weight: bold;
 }
 /*# sourceMappingURL=main.css.map */
