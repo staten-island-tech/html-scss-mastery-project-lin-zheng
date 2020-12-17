@@ -186,9 +186,9 @@ body {
 }
 
 /*zensai*/
-.zen {
-  width: 500px;
-  height: 350px;
+.card {
+  width: 50rem;
+  height: 35rem;
   padding: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -201,7 +201,7 @@ body {
           justify-content: center;
 }
 
-.zensai-appetizer {
+.cardc {
   height: 100%;
   width: 100%;
   -webkit-transition: all 1s;
@@ -215,12 +215,12 @@ body {
       justify-content: space-around;
 }
 
-.zen:hover .zensai-appetizer {
+.card:hover .cardc {
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
 }
 
-.zensai-appetizer .front {
+.cardc .front {
   background-color: #ca3d00;
   color: #fff175;
   font-family: "Poor Story", cursive;
@@ -234,7 +234,7 @@ body {
           backface-visibility: hidden;
 }
 
-.zensai-appetizer .back {
+.cardc .back {
   background-color: #fff175;
   color: #ca3d00;
   -webkit-transform: rotateY(180deg);
@@ -249,250 +249,7 @@ body {
           backface-visibility: hidden;
 }
 
-.zensai-appetizer figure {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  margin: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-/*sushi sashi*/
-.susa {
-  width: 500px;
-  height: 350px;
-  padding: 2rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.sushi-to-sashimi {
-  height: 100%;
-  width: 100%;
-  -webkit-transition: all 1s;
-  transition: all 1s;
-  -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
-.susa:hover .sushi-to-sashimi {
-  -webkit-transform: rotateY(180deg);
-          transform: rotateY(180deg);
-}
-
-.sushi-to-sashimi .front {
-  background-color: #ca3d00;
-  color: #fff175;
-  font-family: "Poor Story", cursive;
-  font-size: 2rem;
-  outline: 3px solid #fff175;
-  outline-offset: -6px;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
-}
-
-.sushi-to-sashimi .back {
-  background-color: #fff175;
-  color: #ca3d00;
-  -webkit-transform: rotateY(180deg);
-          transform: rotateY(180deg);
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-family: "Poor Story", cursive;
-  font-size: 3rem;
-  outline: 2px solid #ca3d00;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
-}
-
-.sushi-to-sashimi figure {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  margin: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-/*maki special*/
-.mak {
-  width: 500px;
-  height: 350px;
-  padding: 2rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.maki-special-rolls {
-  height: 100%;
-  width: 100%;
-  -webkit-transition: all 1s;
-  transition: all 1s;
-  -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
-.mak:hover .maki-special-rolls {
-  -webkit-transform: rotateY(180deg);
-          transform: rotateY(180deg);
-}
-
-.maki-special-rolls .front {
-  background-color: #ca3d00;
-  color: #fff175;
-  font-family: "Poor Story", cursive;
-  font-size: 2rem;
-  outline: 3px solid #fff175;
-  outline-offset: -6px;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
-}
-
-.maki-special-rolls .back {
-  background-color: #fff175;
-  color: #ca3d00;
-  -webkit-transform: rotateY(180deg);
-          transform: rotateY(180deg);
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-family: "Poor Story", cursive;
-  font-size: 3rem;
-  outline: 2px solid #ca3d00;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
-}
-
-.maki-special-rolls figure {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  margin: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-/*yasai rolls*/
-.ya {
-  width: 500px;
-  height: 350px;
-  padding: 2rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.yasai-vegetable-rolls {
-  height: 100%;
-  width: 100%;
-  -webkit-transition: all 1s;
-  transition: all 1s;
-  -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
-.ya:hover .yasai-vegetable-rolls {
-  -webkit-transform: rotateY(180deg);
-          transform: rotateY(180deg);
-}
-
-.yasai-vegetable-rolls .front {
-  background-color: #ca3d00;
-  color: #fff175;
-  font-family: "Poor Story", cursive;
-  font-size: 2rem;
-  outline: 3px solid #fff175;
-  outline-offset: -6px;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
-}
-
-.yasai-vegetable-rolls .back {
-  background-color: #fff175;
-  color: #ca3d00;
-  -webkit-transform: rotateY(180deg);
-          transform: rotateY(180deg);
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-family: "Poor Story", cursive;
-  font-size: 3rem;
-  outline: 2px solid #ca3d00;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
-}
-
-.yasai-vegetable-rolls figure {
+.cardc figure {
   width: 100%;
   height: 100%;
   position: absolute;

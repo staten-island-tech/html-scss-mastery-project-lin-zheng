@@ -121,16 +121,16 @@
 
 /*zensai*/
 
-.zen {
-  width: 500px;
-  height: 350px;
+.card {
+  width: 50rem;
+  height: 35rem;
   padding: 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.zensai-appetizer {
+.cardc {
   height: 100%;
   width: 100%;
   transition: all 1s;
@@ -139,11 +139,11 @@
   justify-content: space-around;
 }
 
-.zen:hover .zensai-appetizer {
+.card:hover .cardc {
   transform: rotateY(180deg);
 }
 
-.zensai-appetizer .front {
+.cardc .front {
   background-color: color(dark-primary);
   color: color(primary);
   font-family: $fontBRS;
@@ -154,7 +154,7 @@
   backface-visibility: hidden;
 }
 
-.zensai-appetizer .back {
+.cardc .back {
   background-color: color(primary);
   color: color(dark-primary);
   transform: rotateY(180deg);
@@ -165,175 +165,7 @@
   backface-visibility: hidden;
 }
 
-.zensai-appetizer figure {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-/*sushi sashi*/
-
-.susa {
-  width: 500px;
-  height: 350px;
-  padding: 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.sushi-to-sashimi {
-  height: 100%;
-  width: 100%;
-  transition: all 1s;
-  transform-style: preserve-3d;
-  display: flex;
-  justify-content: space-around;
-}
-
-.susa:hover .sushi-to-sashimi {
-  transform: rotateY(180deg);
-}
-
-.sushi-to-sashimi .front {
-  background-color: color(dark-primary);
-  color: color(primary);
-  font-family: $fontBRS;
-  font-size: 2rem;
-  outline: 3px solid color(primary);
-  outline-offset: -6px;
-  backface-visibility: hidden;
-}
-
-.sushi-to-sashimi .back {
-  background-color: color(primary);
-  color: color(dark-primary);
-  transform: rotateY(180deg);
-  justify-content: center;
-  font-family: $fontBRS;
-  font-size: 3rem;
-  outline: 2px solid color(dark-primary);
-  backface-visibility: hidden;
-}
-
-.sushi-to-sashimi figure {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-/*maki special*/
-
-.mak {
-  width: 500px;
-  height: 350px;
-  padding: 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.maki-special-rolls {
-  height: 100%;
-  width: 100%;
-  transition: all 1s;
-  transform-style: preserve-3d;
-  display: flex;
-  justify-content: space-around;
-}
-
-.mak:hover .maki-special-rolls {
-  transform: rotateY(180deg);
-}
-
-.maki-special-rolls .front {
-  background-color: color(dark-primary);
-  color: color(primary);
-  font-family: $fontBRS;
-  font-size: 2rem;
-  outline: 3px solid color(primary);
-  outline-offset: -6px;
-  backface-visibility: hidden;
-}
-
-.maki-special-rolls .back {
-  background-color: color(primary);
-  color: color(dark-primary);
-  transform: rotateY(180deg);
-  justify-content: center;
-  font-family: $fontBRS;
-  font-size: 3rem;
-  outline: 2px solid color(dark-primary);
-  backface-visibility: hidden;
-}
-
-.maki-special-rolls figure {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-/*yasai rolls*/
-
-.ya {
-  width: 500px;
-  height: 350px;
-  padding: 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.yasai-vegetable-rolls {
-  height: 100%;
-  width: 100%;
-  transition: all 1s;
-  transform-style: preserve-3d;
-  display: flex;
-  justify-content: space-around;
-}
-
-.ya:hover .yasai-vegetable-rolls {
-  transform: rotateY(180deg);
-}
-
-.yasai-vegetable-rolls .front {
-  background-color: color(dark-primary);
-  color: color(primary);
-  font-family: $fontBRS;
-  font-size: 2rem;
-  outline: 3px solid color(primary);
-  outline-offset: -6px;
-  backface-visibility: hidden;
-}
-
-.yasai-vegetable-rolls .back {
-  background-color: color(primary);
-  color: color(dark-primary);
-  transform: rotateY(180deg);
-  justify-content: center;
-  font-family: $fontBRS;
-  font-size: 3rem;
-  outline: 2px solid color(dark-primary);
-  backface-visibility: hidden;
-}
-
-.yasai-vegetable-rolls figure {
+.cardc figure {
   width: 100%;
   height: 100%;
   position: absolute;
