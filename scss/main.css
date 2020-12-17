@@ -34,8 +34,8 @@ body {
 }
 
 .chef {
-  width: 346px;
-  height: 229px;
+  width: 35rem;
+  height: 17rem;
 }
 
 .brs {
@@ -66,7 +66,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   font-family: "Poor Story", cursive;
-  font-size: 1.2rem;
+  font-size: 1rem;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
 }
@@ -99,6 +99,7 @@ body {
 
 .brsimg {
   border-radius: 10px;
+  height: 17rem;
 }
 
 .csdish {
@@ -107,147 +108,9 @@ body {
   font-weight: bold;
 }
 
-/*sushi deluxe below*/
-.chefsd {
-  width: 346px;
-  height: 229px;
-}
-
-.sd {
-  height: 100%;
-  width: 100%;
-  -webkit-transition: all 1s;
-  transition: all 1s;
-  -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
-.chefsd:hover .sd {
-  -webkit-transform: rotateY(180deg);
-          transform: rotateY(180deg);
-}
-
-.sd .back {
-  background-color: #fff175;
-  color: black;
-  -webkit-transform: rotateY(180deg);
-          transform: rotateY(180deg);
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-family: "Poor Story", cursive;
-  font-size: 1.2rem;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
-}
-
-.sd .front {
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
-}
-
-.sd figure {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  margin: 0;
-  border-radius: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.sdimg {
-  border-radius: 10px;
-}
-
-/*Sashimi deluxe below*/
-.chefssd {
-  width: 346px;
-  height: 229px;
-}
-
-.ssd {
-  height: 100%;
-  width: 100%;
-  -webkit-transition: all 1s;
-  transition: all 1s;
-  -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
-.chefssd:hover .ssd {
-  -webkit-transform: rotateY(180deg);
-          transform: rotateY(180deg);
-}
-
-.ssd .back {
-  background-color: #fff175;
-  color: black;
-  -webkit-transform: rotateY(180deg);
-          transform: rotateY(180deg);
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-family: "Poor Story", cursive;
-  font-size: 1.2rem;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
-}
-
-.ssd .front {
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
-}
-
-.ssd figure {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  margin: 0;
-  border-radius: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.ssdimg {
-  border-radius: 10px;
-}
-
 /*chef box*/
 .chef-box {
-  height: 65vh;
+  height: 60vh;
   width: 90%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -265,6 +128,8 @@ body {
           flex-direction: column;
   border-radius: 20px;
   margin: 2rem;
+  outline: 5px solid #ca3d00;
+  outline-offset: 5px;
 }
 
 .chef-choice {
