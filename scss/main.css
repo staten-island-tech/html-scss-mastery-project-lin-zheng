@@ -4,7 +4,7 @@ body {
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   background-color: color(dark-primary);
 }
 
@@ -14,7 +14,7 @@ body {
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   background-color: #ca3d00;
 }
 
@@ -26,8 +26,20 @@ body {
 
 .main-header {
   height: 35vh;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 241, 117, 0.5)), to(rgba(202, 61, 0, 0.8))), url(img/headback.jpg);
-  background-image: linear-gradient(to bottom, rgba(255, 241, 117, 0.5), rgba(202, 61, 0, 0.8)), url(img/headback.jpg);
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(255, 241, 117, 0.5)),
+      to(rgba(202, 61, 0, 0.8))
+    ),
+    url(img/headback.jpg);
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 241, 117, 0.5),
+      rgba(202, 61, 0, 0.8)
+    ),
+    url(img/headback.jpg);
   background-size: cover;
   color: #fff175;
   font-size: 4rem;
@@ -35,10 +47,10 @@ body {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-line-pack: center;
-      align-content: center;
+  align-content: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   font-family: "Poor Story", cursive;
   letter-spacing: 1rem;
   text-shadow: #ca3d00 4px 4px;
@@ -58,14 +70,14 @@ body {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
 
 .category:hover {
   border-top: solid 3px #ca3d00;
   border-bottom: solid 3px #ca3d00;
   -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  transform: scale(1.2);
   -webkit-transition: all 0.7s;
   transition: all 0.7s;
   letter-spacing: 2px;
@@ -87,7 +99,7 @@ body {
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   background-color: #ca3d00;
 }
 
@@ -98,14 +110,14 @@ body {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
 }
 
 .chef {
@@ -119,36 +131,36 @@ body {
   -webkit-transition: all 1s;
   transition: all 1s;
   -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
+  transform-style: preserve-3d;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
 
 .chef:hover .brs {
   -webkit-transform: rotateY(180deg);
-          transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 
 .brs .back {
   background-color: #fff175;
   color: black;
   -webkit-transform: rotateY(180deg);
-          transform: rotateY(180deg);
+  transform: rotateY(180deg);
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   font-family: "Poor Story", cursive;
   font-size: 1rem;
   -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 .brs .front {
   -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 .brs figure {
@@ -161,15 +173,15 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .brsimg {
@@ -183,6 +195,153 @@ body {
   font-weight: bold;
 }
 
+/*sushi deluxe below*/
+.chefsd {
+  width: 346px;
+  height: 229px;
+}
+
+.sd {
+  height: 100%;
+  width: 100%;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.chefsd:hover .sd {
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+.sd .back {
+  background-color: #fff175;
+  color: black;
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-family: "Poor Story", cursive;
+  font-size: 1.2rem;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.sd .front {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.sd figure {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.delivery-takeout {
+  background-color: #ca3d00;
+  height: auto;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.sdimg {
+  border-radius: 10px;
+}
+
+/*Sashimi deluxe below*/
+.chefssd {
+  width: 346px;
+  height: 229px;
+}
+
+.ssd {
+  height: 100%;
+  width: 100%;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.chefssd:hover .ssd {
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+.ssd .back {
+  background-color: #fff175;
+  color: black;
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-family: "Poor Story", cursive;
+  font-size: 1.2rem;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.ssd .front {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.ssd figure {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.ssdimg {
+  border-radius: 10px;
+}
+
 /*chef box*/
 .chef-box {
   height: 60vh;
@@ -191,16 +350,16 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   background-color: #ca3d00;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   border-radius: 20px;
   margin: 2rem;
   outline: 5px solid #ca3d00;
@@ -221,13 +380,13 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   background-color: #fff175;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   border-radius: 40px;
   border: 5px solid #ca3d00;
 }
@@ -243,20 +402,31 @@ body {
   width: 90%;
   height: 50vh;
   margin: 2rem;
+  font-family: "Poor Story", cursive;
+}
+
+.delivery-takeout-text {
+  margin: 3rem 0rem 5rem;
+  color: #fff;
+  font-size: 5rem;
+}
+
+.forms {
+  width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
 }
 
 /*zensai*/
@@ -268,11 +438,11 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .cardc {
@@ -281,17 +451,17 @@ body {
   -webkit-transition: all 1s;
   transition: all 1s;
   -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
+  transform-style: preserve-3d;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
 
 .card:hover .cardc {
   -webkit-transform: rotateY(180deg);
-          transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 
 .cardc .front {
@@ -300,27 +470,94 @@ body {
   font-family: "Poor Story", cursive;
   font-size: 2rem;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 3rem;
+  color: #fff175;
+}
+
+.box {
+  height: 3rem;
+  border-radius: 0.5rem;
+}
+
+.select-text {
+  font-size: 3rem;
+  margin: 3rem;
+  text-align: center;
+}
+
+.menu-selection {
+  height: 30rem;
+  margin-bottom: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+/*yasai rolls*/
+.ya {
+  width: 500px;
+  height: 350px;
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.yasai-vegetable-rolls {
+  height: 100%;
+  width: 100%;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.ya:hover .yasai-vegetable-rolls {
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+.yasai-vegetable-rolls .front {
+  background-color: #ca3d00;
+  color: #fff175;
+  font-family: "Poor Story", cursive;
+  font-size: 2rem;
   outline: 3px solid #fff175;
   outline-offset: -6px;
   -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 .cardc .back {
   background-color: #fff175;
   color: #ca3d00;
   -webkit-transform: rotateY(180deg);
-          transform: rotateY(180deg);
+  transform: rotateY(180deg);
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   font-family: "Poor Story", cursive;
   font-size: 3rem;
   outline: 2px solid #ca3d00;
   -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 .cardc figure {
@@ -332,15 +569,15 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 html,
@@ -349,7 +586,7 @@ body {
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   background-color: #ca3d00;
 }
 
@@ -370,7 +607,8 @@ body {
   /* Center */
 }
 
-ul, li {
+ul,
+li {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -389,15 +627,15 @@ ul, li {
   scroll-behavior: smooth;
   /*smooth transition scroll*/
   -ms-scroll-snap-type: x mandatory;
-      scroll-snap-type: x mandatory;
+  scroll-snap-type: x mandatory;
   /*snaps to image*/
 }
 
 .carousel__slide {
   position: relative;
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 100%;
-          flex: 0 0 100%;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
   /* 0 grow, 0 shrink, 100% width*/
   width: 100%;
 }
@@ -407,7 +645,7 @@ ul, li {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   /*images fill container*/
 }
 
@@ -423,7 +661,7 @@ ul, li {
 
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *::-webkit-scrollbar {
@@ -484,7 +722,7 @@ ul, li {
 /*position of actual arrow withing circle, z-index allow arrow button to show above image*/
 .carousel::before,
 .carousel::after {
-  content: '';
+  content: "";
   z-index: 1;
   background-color: #333;
   background-size: 1.5rem 1.5rem;
@@ -502,5 +740,33 @@ ul, li {
 
 .carousel::after {
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='100,50 20,100 20,0' fill='%23fff'/%3E%3C/svg%3E");
+  width: 40rem;
+}
+
+.options {
+  font-size: 2rem;
+  -webkit-transform: translate(5rem);
+  transform: translate(5rem);
+  overflow: scroll;
+  border-radius: 1rem;
+  border-style: ridge;
+  padding: 2rem;
+  width: 26rem;
+}
+
+*::-webkit-scrollbar {
+  width: 0rem;
+}
+
+.order {
+  margin-bottom: 3rem;
+  height: 5rem;
+  width: 14rem;
+  border-radius: 5rem;
+  background-color: #fff175;
+  font-family: "Poor Story", cursive;
+  font-size: 2rem;
+  color: #ca3d00;
+  font-weight: bold;
 }
 /*# sourceMappingURL=main.css.map */

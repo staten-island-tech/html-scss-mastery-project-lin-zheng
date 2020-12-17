@@ -1,0 +1,76 @@
+@import "_variables.scss";
+
+.delivery-takeout{
+    background-color: color(dark-primary);
+    height: auto;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: $fontBRS;
+
+}
+
+.delivery-takeout-text{
+    margin: 3rem 0rem 5rem;
+    color: #fff;
+    font-size: 5rem;
+}
+
+
+.forms{
+    width:50%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 3rem;
+    color: color(primary);
+}
+
+.box{
+    height: 3rem;
+    border-radius: 0.5rem;
+}
+
+.select-text{
+    font-size: 3rem;
+    margin: 3rem;
+    text-align: center;
+    //background-color: blue;
+}
+
+.menu-selection{
+    height: 30rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    //background-color: yellow;
+}
+
+.options{
+    font-size: 2rem;
+    transform: translate(5rem);
+    overflow: scroll;
+    border-radius: 1rem;
+    border-style: ridge;
+    padding: 2rem;
+    width: 26rem;
+
+
+}
+
+*::-webkit-scrollbar {
+    width: 0rem;
+  }
+
+.order{
+    margin-bottom: 3rem;
+    height: 5rem;
+    width: 14rem;
+    border-radius: 5rem;
+    background-color: color(primary);
+    font-family: $fontBRS;
+    font-size: 2rem;
+    color: color(dark-primary);
+    font-weight: bold;
+}
