@@ -368,10 +368,8 @@ body {
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
-<<<<<<< HEAD
           box-sizing: border-box;
   background-color: #ca3d00;
-=======
   box-sizing: border-box;
 }
 
@@ -388,7 +386,6 @@ li {
   list-style: none;
   margin: 0;
   padding: 0;
->>>>>>> parent of cb840e3... Revert "Merge branch 'intro-images' into test"
 }
 
 .delivery-takeout {
@@ -436,7 +433,6 @@ li {
   text-align: center;
 }
 
-<<<<<<< HEAD
 .menu-selection {
   height: 30rem;
   margin-bottom: 2rem;
@@ -447,7 +443,6 @@ li {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-=======
 /*display navigation bullets in horizontal line as different block elements*/
 .carousel__navigation-item {
   display: inline-block;
@@ -507,7 +502,6 @@ li {
 
 .carousel::after {
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='100,50 20,100 20,0' fill='%23fff'/%3E%3C/svg%3E");
->>>>>>> parent of cb840e3... Revert "Merge branch 'intro-images' into test"
   width: 40rem;
 }
 
