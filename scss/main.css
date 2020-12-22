@@ -65,8 +65,8 @@ body {
           transform: scale(1.1);
   -webkit-filter: blur(0);
           filter: blur(0);
-  -webkit-filter: contrast(130%);
-          filter: contrast(130%);
+  -webkit-filter: contrast(120%);
+          filter: contrast(120%);
 }
 
 .abouthead {
