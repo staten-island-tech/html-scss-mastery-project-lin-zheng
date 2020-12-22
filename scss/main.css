@@ -368,8 +368,27 @@ body {
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
+<<<<<<< HEAD
           box-sizing: border-box;
   background-color: #ca3d00;
+=======
+  box-sizing: border-box;
+}
+
+.carousel {
+  position: relative;
+  height: 90vh;
+  width: 70vw;
+  margin: 5rem auto;
+  /* Center */
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+>>>>>>> parent of cb840e3... Revert "Merge branch 'intro-images' into test"
 }
 
 .delivery-takeout {
@@ -417,6 +436,7 @@ body {
   text-align: center;
 }
 
+<<<<<<< HEAD
 .menu-selection {
   height: 30rem;
   margin-bottom: 2rem;
@@ -427,6 +447,67 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+=======
+/*display navigation bullets in horizontal line as different block elements*/
+.carousel__navigation-item {
+  display: inline-block;
+}
+
+/*makes the text into buttons*/
+.carousel__navigation-button {
+  background-color: #000;
+  border: 0.5rem solid;
+  border-radius: 50%;
+  font-size: 0;
+}
+
+/*position, size of arrows (text turns to arrows*/
+.carousel::before,
+.carousel::after,
+.carousel__prev,
+.carousel__next {
+  position: absolute;
+  top: 0;
+  margin-top: 20rem;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  font-size: 0;
+}
+
+.carousel::before,
+.carousel__prev {
+  left: -1rem;
+}
+
+/*position of carousel arrow(buttons) left and right*/
+.carousel::after,
+.carousel__next {
+  right: -1rem;
+}
+
+/*position of actual arrow withing circle, z-index allow arrow button to show above image*/
+.carousel::before,
+.carousel::after {
+  content: "";
+  z-index: 1;
+  background-color: #333;
+  background-size: 1.5rem 1.5rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  line-height: 4rem;
+  pointer-events: none;
+  /*The element is never the target of pointer events; however, pointer events may target its descendant elements if those descendants have pointer-events set to some other value. In these circumstances, pointer events will trigger event listeners on this parent element as appropriate on their way to/from the descendant during the event capture/bubble phases.*/
+}
+
+/*arrows*/
+.carousel::before {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='0,50 80,100 80,0' fill='%23fff'/%3E%3C/svg%3E");
+}
+
+.carousel::after {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='100,50 20,100 20,0' fill='%23fff'/%3E%3C/svg%3E");
+>>>>>>> parent of cb840e3... Revert "Merge branch 'intro-images' into test"
   width: 40rem;
 }
 
