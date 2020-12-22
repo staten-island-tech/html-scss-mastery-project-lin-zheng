@@ -7,9 +7,12 @@
         "_navigation.scss",
         "_variables.scss",
         "_menu.scss",
+<<<<<<< HEAD
         "_variables.scss",
         "_variables.scss",
         "_dt.scss",
+=======
+>>>>>>> parent of 0108632... Merge branch 'intro-images' into test
         "_variables.scss"
     ],
     "names": [],

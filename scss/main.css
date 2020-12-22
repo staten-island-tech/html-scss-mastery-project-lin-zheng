@@ -443,6 +443,7 @@ li {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+<<<<<<< HEAD
 /*display navigation bullets in horizontal line as different block elements*/
 .carousel__navigation-item {
   display: inline-block;
@@ -530,5 +531,7 @@ li {
   font-size: 2rem;
   color: #ca3d00;
   font-weight: bold;
+=======
+>>>>>>> parent of 0108632... Merge branch 'intro-images' into test
 }
 /*# sourceMappingURL=main.css.map */
