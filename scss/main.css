@@ -27,8 +27,8 @@ body {
 
 .carousel {
   position: relative;
-  height: 80vh;
-  width: 50vw;
+  height: 90vh;
+  width: 70vw;
   margin: 5rem auto;
   /* Center */
 }
@@ -106,7 +106,7 @@ ul, li {
   text-align: center;
 }
 
-/*display navigation bullets in horizontal line as different bloxk elements*/
+/*display navigation bullets in horizontal line as different block elements*/
 .carousel__navigation-item {
   display: inline-block;
 }
