@@ -576,7 +576,6 @@ body {
   align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-<<<<<<< HEAD
   -ms-flex-direction: column;
   flex-direction: column;
 }
@@ -769,9 +768,7 @@ li {
   font-size: 2rem;
   color: #ca3d00;
   font-weight: bold;
-=======
       -ms-flex-direction: column;
           flex-direction: column;
->>>>>>> parent of 0108632... Merge branch 'intro-images' into test
 }
 /*# sourceMappingURL=main.css.map */
