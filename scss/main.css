@@ -27,8 +27,8 @@ body {
 
 .hours {
   background-color: #ead2d2;
-  width: 50rem;
-  height: 25rem;
+  width: 35rem;
+  height: 20rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -43,8 +43,10 @@ body {
 
 .address {
   background-color: #742f4c;
-  width: 50rem;
-  height: 25rem;
+  -webkit-clip-path: polygon(100% 0, 100% 55%, 70% 100%, 30% 100%, 0 55%, 0 0);
+          clip-path: polygon(100% 0, 100% 55%, 70% 100%, 30% 100%, 0 55%, 0 0);
+  width: 35rem;
+  height: 20rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -79,13 +81,37 @@ body {
 .right {
   background-color: blue;
   width: 40vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.right-head {
+  font-size: 2rem;
+  background-color: red;
+  padding: 2rem;
+}
+
+.other-locations {
+  height: 70vh;
+  width: 25vw;
+  background-color: #fff;
+  margin: 2rem;
 }
 
 .head-text {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .info {
-  font-size: 2rem;
+  font-size: 1.75rem;
 }
 /*# sourceMappingURL=main.css.map */
