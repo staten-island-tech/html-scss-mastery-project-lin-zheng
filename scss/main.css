@@ -16,21 +16,25 @@ body {
           box-sizing: border-box;
 }
 
-html,
-body {
-  font-size: 62.5%;
-  padding: 0;
-  margin: 0;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+.carousel-container {
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #fff175;
 }
 
 .carousel {
   position: relative;
-  height: 90vh;
-  width: 70vw;
-  margin: 5rem auto;
-  /* Center */
+  height: 70vh;
+  width: 60vw;
 }
 
 ul, li {
@@ -97,28 +101,6 @@ ul, li {
   -ms-overflow-style: none;
 }
 
-/*navigation bullets at the bottom*/
-.carousel__navigation {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  text-align: center;
-}
-
-/*display navigation bullets in horizontal line as different block elements*/
-.carousel__navigation-item {
-  display: inline-block;
-}
-
-/*makes the text into buttons*/
-.carousel__navigation-button {
-  background-color: #000;
-  border: 0.5rem solid;
-  border-radius: 50%;
-  font-size: 0;
-}
-
 /*position, size of arrows (text turns to arrows*/
 .carousel::before,
 .carousel::after,
@@ -126,7 +108,7 @@ ul, li {
 .carousel__next {
   position: absolute;
   top: 0;
-  margin-top: 20rem;
+  margin-top: 17.5rem;
   width: 4rem;
   height: 4rem;
   border-radius: 50%;
