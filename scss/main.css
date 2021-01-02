@@ -7,6 +7,15 @@ body {
           box-sizing: border-box;
 }
 
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 .delivery-takeout {
   background-color: #ca3d00;
   height: auto;
