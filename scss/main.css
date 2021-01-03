@@ -5,6 +5,7 @@ body {
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  background-color: color(dark-primary);
 }
 
 html,
@@ -14,6 +15,7 @@ body {
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  background-color: #ca3d00;
 }
 
 .chef-menu {
