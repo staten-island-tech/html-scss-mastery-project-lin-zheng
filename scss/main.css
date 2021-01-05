@@ -655,4 +655,126 @@ body {
   color: #ca3d00;
   font-weight: bold;
 }
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.locations {
+  background-color: #fff175;
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Poor Story", cursive;
+}
+
+.hours {
+  background-color: #ead2d2;
+  width: 40rem;
+  height: 20rem;
+  padding: 0 1rem 2rem 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 0.3rem;
+}
+
+.address {
+  background-color: #742f4c;
+  -webkit-clip-path: polygon(100% 0, 100% 60%, 75% 100%, 25% 100%, 0 60%, 0 0);
+          clip-path: polygon(100% 0, 100% 60%, 75% 100%, 25% 100%, 0 60%, 0 0);
+  width: 40rem;
+  height: 20rem;
+  padding: 1rem;
+  padding-bottom: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  border-radius: 0.3rem;
+}
+
+.left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 60vw;
+  height: 100vh;
+}
+
+.right {
+  width: 40vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-left-width: 0.15rem;
+  border-color: black;
+  border-left-style: solid;
+}
+
+.right-head {
+  font-size: 2rem;
+  background-color: white;
+  width: 20rem;
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: 4.5rem;
+  text-decoration: underline;
+  border-radius: 0.5rem;
+}
+
+.other-locations {
+  height: 70vh;
+  width: 25vw;
+  background-color: #fff;
+  margin: 2rem;
+  border-radius: 0.75rem;
+}
+
+.head-text {
+  font-size: 2.75rem;
+}
+
+.info {
+  font-size: 2rem;
+}
 /*# sourceMappingURL=main.css.map */
