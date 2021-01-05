@@ -568,6 +568,7 @@ body {
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  background-color: #ca3d00;
 }
 
 .delivery-takeout {
