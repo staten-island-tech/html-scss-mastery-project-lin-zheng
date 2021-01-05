@@ -6,4 +6,76 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.main-header {
+  height: 35vh;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 241, 117, 0.5)), to(rgba(202, 61, 0, 0.8))), url(img/headback.jpg);
+  background-image: linear-gradient(to bottom, rgba(255, 241, 117, 0.5), rgba(202, 61, 0, 0.8)), url(img/headback.jpg);
+  background-size: cover;
+  color: #fff175;
+  font-size: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Poor Story", cursive;
+  letter-spacing: 1rem;
+  text-shadow: #ca3d00 4px 4px;
+}
+
+.navbar {
+  background-color: #fff175;
+  color: #ca3d00;
+  border-radius: 0 0 3rem 3rem;
+  font-family: "Poor Story", cursive;
+}
+
+.navitems {
+  padding: 3rem;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.category:hover {
+  border-top: solid 3px #ca3d00;
+  border-bottom: solid 3px #ca3d00;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+  letter-spacing: 2px;
+}
+
+.navbar li {
+  display: inline;
+}
+
+.navbar a {
+  color: #ca3d00;
+  text-decoration: none;
+  font-size: 3rem;
+}
 /*# sourceMappingURL=main.css.map */
