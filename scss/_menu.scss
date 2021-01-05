@@ -1,0 +1,177 @@
+@import "_variables.scss";
+
+.chef-menu {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+.chef {
+  width: 35rem;
+  height: 17rem;
+}
+
+.brs {
+  height: 100%;
+  width: 100%;
+  transition: all 1s;
+  transform-style: preserve-3d;
+  display: flex;
+  justify-content: space-around;
+}
+
+.chef:hover .brs {
+  transform: rotateY(180deg);
+}
+
+.brs .back {
+  background-color: color(primary);
+  color: black;
+  transform: rotateY(180deg);
+  justify-content: center;
+  font-family: $fontBRS;
+  font-size: 1rem;
+  backface-visibility: hidden;
+}
+
+.brs .front {
+  backface-visibility: hidden;
+}
+
+.brs figure {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.brsimg {
+  border-radius: 10px;
+  height: 17rem;
+}
+
+.csdish {
+  font-size: 3rem;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/*chef box*/
+
+.chef-box {
+  height: 60vh;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: color(dark-primary);
+  flex-direction: column;
+  border-radius: 20px;
+  margin: 2rem;
+  outline: 5px solid color(dark-primary);
+  outline-offset: 5px;
+}
+
+.chef-choice {
+  font-family: $fontBRS;
+  font-size: 4rem;
+  color: white;
+}
+
+/*rest below*/
+
+.menu {
+  height: 225vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: color(primary);
+  flex-direction: column;
+  border-radius: 40px;
+  border: 5px solid color(dark-primary);
+}
+
+.menuhead {
+  font-family: $fontBRS;
+  font-size: 5rem;
+  color: color(dark-primary);
+}
+
+/*menurest below*/
+
+.menurest {
+  width: 90%;
+  height: 50vh;
+  margin: 2rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  /*flex-wrap: ;*/ //maybe//
+}
+
+/*zensai*/
+
+.card {
+  width: 50rem;
+  height: 35rem;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardc {
+  height: 100%;
+  width: 100%;
+  transition: all 1s;
+  transform-style: preserve-3d;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card:hover .cardc {
+  transform: rotateY(180deg);
+}
+
+.cardc .front {
+  background-color: color(dark-primary);
+  color: color(primary);
+  font-family: $fontBRS;
+  font-size: 2rem;
+  align-items: center;
+  outline: 3px solid color(primary);
+  outline-offset: -6px;
+  backface-visibility: hidden;
+}
+
+.cardc .back {
+  background-color: color(primary);
+  color: color(dark-primary);
+  transform: rotateY(180deg);
+  justify-content: center;
+  font-family: $fontBRS;
+  font-size: 3rem;
+  outline: 2px solid color(dark-primary);
+  backface-visibility: hidden;
+}
+
+.cardc figure {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
