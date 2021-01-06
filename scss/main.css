@@ -104,6 +104,10 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   background-color: #fff175;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-top-left-radius: 3rem;
+  border-top-right-radius: 3rem;
 }
 
 .carousel {
@@ -245,6 +249,8 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border-bottom-left-radius: 3rem;
+  border-bottom-right-radius: 3rem;
 }
 
 .aboutbox {
@@ -373,7 +379,7 @@ body {
   height: 100%;
   position: absolute;
   margin: 0;
-  border-radius: 10px;
+  border-radius: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -586,6 +592,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   font-family: "Poor Story", cursive;
+  border-bottom-style: solid;
 }
 
 .delivery-takeout-text {
@@ -637,7 +644,7 @@ body {
   border-radius: 1rem;
   border-style: ridge;
   padding: 2rem;
-  width: 26rem;
+  width: 30rem;
 }
 
 *::-webkit-scrollbar {
@@ -769,6 +776,9 @@ body {
   background-color: #fff;
   margin: 2rem;
   border-radius: 0.75rem;
+  font-size: 1.7rem;
+  padding: 3rem;
+  text-align: center;
 }
 
 .head-text {
