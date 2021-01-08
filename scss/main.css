@@ -485,7 +485,7 @@ body {
 
 /*zensai*/
 .card {
-  width: 50rem;
+  width: 40%;
   height: 35rem;
   padding: 2rem;
   display: -webkit-box;
