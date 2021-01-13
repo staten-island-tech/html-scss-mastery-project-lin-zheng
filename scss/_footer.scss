@@ -1,0 +1,47 @@
+@import "_variables.scss";
+
+.background {
+  background-color: color(primary);
+  width: 100%;
+  height: auto;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.extra {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: auto;
+  margin: 1rem;
+}
+
+.listed {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footer {
+  font-size: 1.5rem;
+  color: color(dark-primary);
+}
+
+.icons {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+  margin: 2rem;
+}
+
+.media-button {
+  width: 4rem;
+}
+
+.logo {
+  width: 8rem;
+  margin: 4rem;
+}
