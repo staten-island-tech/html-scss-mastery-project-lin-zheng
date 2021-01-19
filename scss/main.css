@@ -49,6 +49,10 @@ body {
   color: #ca3d00;
   border-radius: 0 0 3rem 3rem;
   font-family: "Poor Story", cursive;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 .navitems {

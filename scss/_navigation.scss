@@ -30,6 +30,9 @@
   color: color(dark-primary);
   border-radius: 0 0 3rem 3rem;
   font-family: $fontBRS;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 .navitems {
