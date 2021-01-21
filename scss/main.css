@@ -551,12 +551,13 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  overflow: none;
   /*flex-wrap: ;*/
 }
 
 /*zensai*/
 .card {
-  width: 40%;
+  width: 45rem;
   height: 35rem;
   padding: 2rem;
   display: -webkit-box;
@@ -914,8 +915,17 @@ body {
 }
 
 .footer {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: white;
+  font-family: "Volkhov", serif;
+}
+
+.footer a:visited {
+  color: white;
+}
+
+.footer a:hover {
+  color: #7bbfff;
 }
 
 .icons {
@@ -933,6 +943,13 @@ body {
 
 .media-button {
   width: 4rem;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.media-button:hover {
+  -webkit-filter: contrast(150%);
+          filter: contrast(150%);
 }
 
 .logo {

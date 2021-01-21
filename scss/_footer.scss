@@ -25,10 +25,18 @@
 }
 
 .footer {
-  font-size: 2rem;
+  font-size: 1.5rem;
+  color: white;
+  font-family: $fontFOOTER;
+}
+
+.footer a:visited {
   color: white;
 }
 
+.footer a:hover {
+  color: rgb(123, 191, 255);
+}
 .icons {
   align-items: center;
   display: flex;
@@ -39,6 +47,11 @@
 
 .media-button {
   width: 4rem;
+  filter: grayscale(100%);
+}
+
+.media-button:hover {
+  filter: contrast(150%);
 }
 
 .logo {
