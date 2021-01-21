@@ -4,30 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Poor+Story&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="scss/main.css">
     <title>Blue Ribbon Sushi</title>
 </head>
 <!--tabindex used to focus on next element by using tab key-->
 <!--aside element used as navigation represented by bullet points,, normally used to present sidebars,, info is indirectly related to that of main content-->
 <body>
-    <header class="container">
-        <div class="main-header">
-            <h1>Blue Ribbon Sushi</h1>
-        </div>
-    </header>
-
-    <nav class="navbar">
-        <div class="container">
-            <ul class="navitems">
-                <li class="category"><a href="#">Home</a></li>
-                <li class="category"><a href="#about">About</a></li>
-                <li class="category"><a href="#menu">Menu</a></li>
-                <li class="category"><a href="#delivery-takeout">Delivery & Takeouts</a></li>
-                <li class="category"><a href="#locations">Locations & Hours</a></li>
-            </ul>
-        </div>
+    <nav>
+        <input type="checkbox" id="res-menu">
+        <label for="res-menu">
+            <i class="fa fa-bars" id="sign-one"></i>
+            <i class="fa fa-times" id="sign-two"></i>
+        </label>
+        <h1>Blue Ribbon Sushi</h1>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Delivery & Takeouts</a></li>
+            <li><a href="#">Locations & Hours</a></li>
+        </ul>
     </nav>
- b
+ 
     <section class="carousel-container">
         <div class="carousel" aria-label="image-gallery">
             <ul class="carousel__viewport">
