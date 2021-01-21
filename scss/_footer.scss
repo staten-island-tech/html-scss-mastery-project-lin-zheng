@@ -1,7 +1,7 @@
 @import "_variables.scss";
 
 .background {
-  background-color: color(primary);
+  background-color: black;
   width: 100%;
   height: auto;
   align-items: center;
@@ -12,7 +12,7 @@
 .extra {
   display: flex;
   flex-direction: column;
-  width: 90%;
+  width: 80%;
   height: auto;
   margin: 1rem;
 }
@@ -25,8 +25,8 @@
 }
 
 .footer {
-  font-size: 1.5rem;
-  color: color(dark-primary);
+  font-size: 2rem;
+  color: white;
 }
 
 .icons {
