@@ -117,7 +117,7 @@ label #sign-two {
   display: none;
 }
 
-@media (max-width: 87rem) {
+@media (max-width: 1777px) {
   label #sign-one {
     display: block;
   }
