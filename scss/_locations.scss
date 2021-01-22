@@ -84,3 +84,18 @@
 .info {
   font-size: 2rem;
 }
+
+@media screen and (max-width: 800px) {
+  .address {
+    width: 75%;
+  }
+
+  .hours {
+    width: 75%;
+  }
+
+  .right-head {
+    width: 90%;
+    height: auto;
+  }
+}
