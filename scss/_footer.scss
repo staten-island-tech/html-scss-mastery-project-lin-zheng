@@ -58,3 +58,15 @@
   width: 8rem;
   margin: 4rem;
 }
+
+@media screen and (max-width: 800px) {
+  .footer {
+    scale: 0.6;
+    margin: 5px;
+  }
+
+  .listed {
+    flex-direction: column;
+    align-items: center;
+  }
+}

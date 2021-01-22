@@ -662,7 +662,6 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
     height: auto;
-    padding: 20px;
     width: 95%;
   }
   .chef-box {
@@ -670,6 +669,7 @@ body {
   }
   .chef {
     width: 70%;
+    margin: 10px;
   }
   .back {
     width: 70%;
@@ -681,6 +681,9 @@ body {
     height: auto;
     -ms-flex-pack: distribute;
         justify-content: space-around;
+  }
+  .chef-choice {
+    margin: 5px;
   }
 }
 
@@ -1001,5 +1004,21 @@ body {
 .logo {
   width: 8rem;
   margin: 4rem;
+}
+
+@media screen and (max-width: 800px) {
+  .footer {
+    scale: 0.6;
+    margin: 5px;
+  }
+  .listed {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 /*# sourceMappingURL=main.css.map */

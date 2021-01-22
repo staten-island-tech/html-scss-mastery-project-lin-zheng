@@ -183,7 +183,6 @@
   .chef-menu {
     flex-direction: column;
     height: auto;
-    padding: 20px;
     width: 95%;
   }
 
@@ -193,6 +192,7 @@
 
   .chef {
     width: 70%;
+    margin: 10px;
   }
 
   .back {
@@ -206,5 +206,9 @@
   .menu {
     height: auto;
     justify-content: space-around;
+  }
+
+  .chef-choice {
+    margin: 5px;
   }
 }
