@@ -15,7 +15,8 @@
   background-color: color(dark-primary);
   color: color(primary);
   border-radius: 5rem;
-  width: 60rem;
+  width: auto; //check//
+  margin: 7rem; //check//
   padding: 3rem;
   display: flex;
   align-items: center;
@@ -27,6 +28,7 @@
   width: 45rem;
   border-radius: 5rem;
   filter: blur(3px);
+  margin: 5rem;
   transition: all 1s;
 }
 
