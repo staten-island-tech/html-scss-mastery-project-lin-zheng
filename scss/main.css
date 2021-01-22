@@ -88,14 +88,13 @@ nav h1 {
 nav ul {
   float: right;
   margin-right: 2.5 rem;
-  margin-left: 5rem;
   list-style: none;
 }
 
 nav ul li {
   display: inline-block;
   line-height: 5rem;
-  margin: 0 1.5rem;
+  margin: 0 3rem;
 }
 
 nav ul li a {
