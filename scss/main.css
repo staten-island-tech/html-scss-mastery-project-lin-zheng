@@ -88,7 +88,7 @@ nav h1 {
 nav ul {
   float: right;
   margin-right: 2.5 rem;
-  margin-bottom: 5rem;
+  margin-left: 5rem;
   list-style: none;
 }
 
