@@ -852,6 +852,7 @@ body {
   font-size: 1.7rem;
   padding: 3rem;
   text-align: center;
+  overflow: auto;
 }
 
 .head-text {
