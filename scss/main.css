@@ -330,8 +330,8 @@ body {
   background-color: #ca3d00;
   color: #fff175;
   border-radius: 5rem;
-  width: auto;
-  margin: 7rem;
+  width: 40rem;
+  margin: 5rem;
   padding: 3rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -350,11 +350,11 @@ body {
 }
 
 .aboutimg {
-  width: 35rem;
+  width: 30rem;
   border-radius: 5rem;
   -webkit-filter: blur(3px);
           filter: blur(3px);
-  margin: 5rem;
+  margin: 0 5rem 5rem 5rem;
   -webkit-transition: all 1s;
   transition: all 1s;
 }
@@ -376,6 +376,16 @@ body {
 .abouttext {
   font-family: "Poor Story", cursive;
   font-size: 2rem;
+}
+
+@media screen and (max-width: 900px) {
+  .aboutbox {
+    width: 95%;
+    height: auto;
+  }
+  .aboutimg {
+    width: 70%;
+  }
 }
 
 html,
