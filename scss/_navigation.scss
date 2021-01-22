@@ -51,12 +51,11 @@ nav {
   top: 0;
   z-index: 10;
   box-shadow: 0px 2px black;
-  flex-wrap: nowrap; //check//
+  flex-wrap: nowrap;
 }
 
 nav h1 {
   position: absolute;
-  margin-right: 10rem;
   width: 40rem;
   top: 8px;
   left: 5%;
