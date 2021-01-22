@@ -67,8 +67,8 @@ nav h1 {
 
 nav ul {
   float: right;
-  margin-right: 2.5 rem;
-  margin-bottom: -2rem;
+  margin-right: 2.5rem;
+
   list-style: none;
 }
 
@@ -84,6 +84,7 @@ nav ul li a {
   color: white;
   font-size: 3rem;
   text-decoration: none;
+  margin-left: 5rem;
 }
 
 label #sign-one,
