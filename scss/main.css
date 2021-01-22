@@ -344,10 +344,11 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  overflow: auto;
 }
 
 .aboutimg {
-  width: 45rem;
+  width: 35rem;
   border-radius: 5rem;
   -webkit-filter: blur(3px);
           filter: blur(3px);

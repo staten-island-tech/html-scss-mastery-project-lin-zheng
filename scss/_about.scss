@@ -22,10 +22,11 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  overflow: auto;
 }
 
 .aboutimg {
-  width: 45rem;
+  width: 35rem;
   border-radius: 5rem;
   filter: blur(3px);
   margin: 5rem;
