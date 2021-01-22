@@ -322,6 +322,8 @@ body {
           align-items: center;
   border-bottom-left-radius: 3rem;
   border-bottom-right-radius: 3rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .aboutbox {
