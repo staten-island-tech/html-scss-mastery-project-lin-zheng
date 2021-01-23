@@ -420,7 +420,7 @@ body {
   height: 17rem;
 }
 
-.brs {
+.brspecial {
   height: 100%;
   width: 100%;
   -webkit-transition: all 1s;
@@ -434,12 +434,7 @@ body {
       justify-content: space-around;
 }
 
-.chef:hover .brs {
-  -webkit-transform: rotateY(180deg);
-          transform: rotateY(180deg);
-}
-
-.brs .back {
+.brspecial .back {
   background-color: #fff175;
   color: black;
   -webkit-transform: rotateY(180deg);
@@ -453,12 +448,12 @@ body {
           backface-visibility: hidden;
 }
 
-.brs .front {
+.brspecial .front {
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
 }
 
-.brs figure {
+.brspecial figure {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -479,15 +474,160 @@ body {
           flex-direction: column;
 }
 
-.brsimg {
+.brspecial .brsimg {
   border-radius: 10px;
   height: 17rem;
 }
 
-.csdish {
+.brspecial .csdish {
   font-size: 3rem;
   text-decoration: underline;
   font-weight: bold;
+}
+
+.sdeluxe {
+  height: 100%;
+  width: 100%;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.sdeluxe .back {
+  background-color: #fff175;
+  color: black;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Poor Story", cursive;
+  font-size: 1rem;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.sdeluxe .front {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.sdeluxe figure {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0;
+  border-radius: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.sdeluxe .brsimg {
+  border-radius: 10px;
+  height: 17rem;
+}
+
+.sdeluxe .csdish {
+  font-size: 3rem;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.sadeluxe {
+  height: 100%;
+  width: 100%;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.sadeluxe .back {
+  background-color: #fff175;
+  color: black;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Poor Story", cursive;
+  font-size: 1rem;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.sadeluxe .front {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.sadeluxe figure {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0;
+  border-radius: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.sadeluxe .brsimg {
+  border-radius: 10px;
+  height: 17rem;
+}
+
+.sadeluxe .csdish {
+  font-size: 3rem;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.chef:hover .brspecial {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.chef:hover .sdeluxe {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.chef:hover .sadeluxe {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
 }
 
 /*chef box*/
@@ -500,9 +640,8 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   background-color: #ca3d00;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -518,7 +657,6 @@ body {
   font-family: "Poor Story", cursive;
   font-size: 4rem;
   color: white;
-  margin-top: 5px;
 }
 
 /*rest below*/
