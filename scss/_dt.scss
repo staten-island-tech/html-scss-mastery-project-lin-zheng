@@ -73,3 +73,20 @@
     color: color(dark-primary);
     font-weight: bold;
 }
+
+@media screen and (max-width: 800px) {
+
+    .delivery-takeout-text{
+        font-size: 4rem;
+    }
+
+    .forms{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+
+    .container{
+        padding: 1rem;
+    }
+}

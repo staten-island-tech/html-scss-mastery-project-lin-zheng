@@ -179,8 +179,8 @@
   flex-direction: column;
 }
 
-@media screen and (max-width: 800px) {
-  .chef-menu {
+@media screen and (max-width: 1010px) {
+ .chef-menu {
     flex-direction: column;
     height: auto;
     width: 95%;
@@ -205,10 +205,15 @@
 
   .menu {
     height: auto;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
   .chef-choice {
     margin: 5px;
   }
+
+  .brsimg{
+    width: 120%;
+  }
+
 }

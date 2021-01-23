@@ -177,14 +177,12 @@ body {
   background-color: #fff175;
   border-top-style: solid;
   border-bottom-style: solid;
-  border-top-left-radius: 3rem;
-  border-top-right-radius: 3rem;
 }
 
 .carousel {
   position: relative;
-  height: 70vh;
-  width: 60vw;
+  height: 90vh;
+  width: 90vw;
 }
 
 ul, li {
@@ -258,7 +256,7 @@ ul, li {
 .carousel__next {
   position: absolute;
   top: 0;
-  margin-top: 17.5rem;
+  margin-top: 25rem;
   width: 4rem;
   height: 4rem;
   border-radius: 50%;
@@ -655,7 +653,7 @@ body {
           flex-direction: column;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1010px) {
   .chef-menu {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -679,11 +677,15 @@ body {
   }
   .menu {
     height: auto;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .chef-choice {
     margin: 5px;
+  }
+  .brsimg {
+    width: 120%;
   }
 }
 
@@ -783,6 +785,25 @@ body {
   font-weight: bold;
 }
 
+@media screen and (max-width: 800px) {
+  .delivery-takeout-text {
+    font-size: 4rem;
+  }
+  .forms {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: auto;
+  }
+  .container {
+    padding: 1rem;
+  }
+}
+
 html,
 body {
   font-size: 62.5%;
@@ -820,6 +841,9 @@ body {
       -ms-flex-align: center;
           align-items: center;
   border-radius: 0.3rem;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .address {
@@ -842,6 +866,9 @@ body {
           align-items: center;
   color: #fff;
   border-radius: 0.3rem;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .left {
@@ -912,15 +939,35 @@ body {
 }
 
 @media screen and (max-width: 800px) {
+  .locations {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: auto;
+  }
   .address {
-    width: 75%;
+    width: 80%;
   }
   .hours {
-    width: 75%;
+    width: 80%;
+  }
+  .right {
+    border-left-style: none;
+    border-top-style: double;
+    width: 70%;
   }
   .right-head {
-    width: 90%;
-    height: auto;
+    width: 60%;
+  }
+  .other-locations {
+    width: 60%;
   }
 }
 

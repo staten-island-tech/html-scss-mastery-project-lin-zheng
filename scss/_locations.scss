@@ -18,6 +18,7 @@
   flex-direction: column;
   align-items: center;
   border-radius: 0.3rem;
+  justify-content: space-evenly;
 }
 
 .address {
@@ -32,6 +33,7 @@
   align-items: center;
   color: #fff;
   border-radius: 0.3rem;
+  justify-content: space-evenly;
 }
 
 .left {
@@ -86,16 +88,32 @@
 }
 
 @media screen and (max-width: 800px) {
+
+  .locations{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
   .address {
-    width: 75%;
+    width: 80%;
   }
 
   .hours {
-    width: 75%;
+    width: 80%;
   }
 
-  .right-head {
-    width: 90%;
-    height: auto;
-  }
+.right{
+  border-left-style: none;
+  border-top-style: double;
+  width: 70%;
+}
+
+.right-head{
+  width: 60%;
+}
+
+.other-locations{
+  width: 60%;
+}
 }
