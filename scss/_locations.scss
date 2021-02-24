@@ -87,9 +87,8 @@
   font-size: 2rem;
 }
 
-@media screen and (max-width: 800px) {
-
-  .locations{
+@media screen and (max-width: 700px) {
+  .locations {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -103,17 +102,21 @@
     width: 80%;
   }
 
-.right{
-  border-left-style: none;
-  border-top-style: double;
-  width: 70%;
-}
+  .right {
+    border-left-style: none;
+    border-top-style: double;
+    width: 80%;
+    height: auto;
+  }
 
-.right-head{
-  width: 60%;
-}
+  .right-head {
+    width: 60%;
+  }
 
-.other-locations{
-  width: 60%;
-}
+  .other-locations {
+    width: 90%;
+    margin: 1.5rem;
+    padding: 2rem;
+    height: auto;
+  }
 }
