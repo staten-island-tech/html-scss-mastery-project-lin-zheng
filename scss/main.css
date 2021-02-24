@@ -1093,9 +1093,12 @@ body {
     height: auto;
   }
   .address {
-    width: 80%;
+    width: 90%;
   }
   .hours {
+    width: 90%;
+  }
+  .left {
     width: 80%;
   }
   .right {
@@ -1109,7 +1112,7 @@ body {
   }
   .other-locations {
     width: 90%;
-    margin: 1.5rem;
+    margin: 2rem;
     padding: 2rem;
     height: auto;
   }
